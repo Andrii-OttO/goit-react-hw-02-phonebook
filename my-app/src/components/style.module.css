@@ -1,0 +1,52 @@
+/* .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.input{
+    border: 1px solid black;
+    margin-top: 50px;
+    padding: 10px;
+}
+.Phonebook{
+    display: flex;
+    justify-content: space-around;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 20px;
+    justify-content: space-between;
+ 
+}
+.btn_label{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: azure;
+    border-radius: 5px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 120px;
+}
+.filter{
+    display: flex;
+}
+.filter_lable{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.list{
+    list-style: none;
+}
+.delete_btn{
+    margin-left: 10px;
+}
